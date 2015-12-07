@@ -1,0 +1,619 @@
+
+body {
+    /*background-color: #555555;*/
+    overflow-x: hidden;
+    background: url("/img/bg.png");
+    background-size:cover;
+}
+
+.navbar {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #3c3c3c;
+    padding: 40px 0 30px;
+}
+
+footer p { color: #fff; }
+ul.legals { list-style: none; color: #fff; line-height: 25px; }
+ul.legals li { display: inline-block; }
+ul.legals li::after { content: " |"; }
+ul.legals li:last-child::after { content: ""; }
+.legals { text-align: left; }
+.credit { text-align: right; }
+
+div.middle-login {
+    margin: 80px auto;
+    width: 800px;
+    height: 550px;
+    background-image: url(/img/login.jpg);
+    box-shadow: 10px 10px 20px #ffffff;
+    border-radius:25px;
+    -moz-border-radius:25px; /* 老的 Firefox */
+}
+
+div.middle-register {
+    margin: 80px auto;
+    width: 800px;
+    height: 550px;
+    background-image: url(/img/register.jpg);
+    box-shadow: 10px 10px 20px #ffffff;
+    border-radius:25px;
+    -moz-border-radius:25px; /* 老的 Firefox */
+}
+
+div.user-settings {
+    padding-top: 80px;
+    width: 90%;
+}
+
+div.user-info {
+    line-height: 40px;
+    font-size: 15px;
+    margin-top: 70px;
+    width: 85%;
+    background-color: silver;
+    opacity: 0.9;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #ffffff;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    margin-bottom: 20px;
+}
+
+div.digital-panel {
+    padding-top: 80px;
+    width: 100%;
+    background-color: #555555;
+}
+
+div.digital-panel-margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.digital-panel div.moves{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    margin-left: 10px;
+    float:left;
+    display:inline;
+}
+
+div.digital-panel div.workouts{
+    height: 500px;
+    width: 400px;
+    position: relative;
+    margin-left: 10px;
+    float:left;
+    display:inline;
+}
+
+div.digital-panel div.meals{
+    height: 410px;
+    width: 400px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:left;
+    display:inline;
+}
+
+div.digital-panel div.sleeps{
+    height: 200px;
+    width: 500px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float:left;
+    display:inline;
+}
+
+div.digital-panel div.mood{
+    height: 200px;
+    width: 500px;
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float:left;
+}
+
+
+div.user-detail {
+    height: 550px;
+    width: 90%;
+}
+
+div.bg {
+    background-color: silver;
+    width: 85%;
+    border-radius: 20px;
+    opacity: 0.9;
+    box-shadow: 10px 10px 20px #ffffff;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+div button.btn-toolbar {
+    color: white;
+    background-color: #e38d13;
+}
+
+div.advice-1 {
+    height: 300px;
+    background-color: #afd9ee;
+}
+
+div.advice-2 {
+    height: 300px;
+    background-color: #999999;
+}
+
+div.advice-3 {
+    height: 300px;
+    background-color: #e38d13;
+}
+
+div.advice-text {
+    text-align: center;
+    font-size: 4em;
+}
+
+.advice-bg-color {
+    background-color: #ffffff;
+}
+
+.loginpanel {
+    text-align: center;
+    width: 300px;
+    border-radius: 0.5rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    background-color: transparent;
+    padding: 20px;
+}
+
+input.login {
+    width: 100%;
+    margin-bottom: 17px;
+    padding: 15px;
+    background-color: #fcf8e3;
+    border-radius: 2px;
+    border: none;
+}
+
+h1.login {
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #EFEFEF;
+}
+
+h1.font-big {
+    font-size: 4em;
+}
+
+h1.font-white {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    color: black;
+}
+
+div.font-white{
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    color: white;
+}
+
+h1.big-down {
+    font-size: 4em;
+    padding-top: 80px;
+}
+
+div.single_item {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    border-radius: 6px;
+    background-color: #e3e3e3;
+}
+
+.bigicon {
+    font-size: 100px;
+    color: white;
+}
+
+.buttonwrapper{
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+}
+
+.loginbutton {
+    background-color: #888888;
+    width: 100%;
+    margin: auto;
+    height: 50px;
+}
+
+.navbar-right-padding {
+    padding-right: 50px;
+}
+
+hr.division {
+    border-top:10px groove skyblue;
+    height: 5px;
+    color: #080808;
+}
+
+.bg-padding {
+    padding-top: 80px;
+}
+
+/*#jawbone-api {*/
+    /*width:400px;*/
+    /*height:150px;*/
+    /*transition:width 2s, height 2s;*/
+    /*-moz-transition:width 2s, height 2s, -moz-transform 2s; /!* Firefox 4 *!/*/
+    /*-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /!* Safari and Chrome *!/*/
+    /*-o-transition:width 2s, height 2s, -o-transform 2s; /!* Opera *!/*/
+/*}*/
+/*#jawbone-api:hover {*/
+    /*width:500px;*/
+    /*height:200px;*/
+/*}*/
+
+ul.user-info {
+    font-size: 2em;
+    color: #ffffff;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+table.user-list {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 1.5em;
+}
+
+div#moves-active-time {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 55%;
+    text-align: center;
+}
+
+div#moves-free-time {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 42%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+div#moves-total-calories {
+    background-color: darkorange;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#moves-workouts-calories {
+    background-color: #f5e79e;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+div#moves-static-calories {
+    background-color: #f5e79e;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+div#moves-metabolic-rate {
+    background-color: #ce8483;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#moves-steps {
+    background-color: #66afe9;
+    border-radius: 10px;
+    width: 42%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#moves-km {
+    background-color: #337ab7;
+    border-radius: 10px;
+    width: 55%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div.workouts-detail {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div#workouts-title {
+    background-color: #afd9ee;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#workouts-steps{
+    background-color: #5cb85c;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+div#workouts-distance {
+    background-color: #cccccc;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+
+div#workouts-calories {
+    background-color: #cccccc;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+div#workouts-time {
+    background-color: #5cb85c;
+    border-radius: 10px;
+    width: 40%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+div#mood-content {
+    background-color: #122b40;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+
+img.mood-img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+div#meals-title {
+    background-color: #777777;
+    border-radius: 10px;
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+div#meals-calories {
+    background-color: darkorange;
+    border-radius: 10px;
+    width: 58%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+div#meals-fat {
+    background-color: orchid;
+    border-radius: 10px;
+    width: 28%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+div#meals-protein {
+    background-color: olivedrab;
+    border-radius: 10px;
+    width: 21%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+div#meals-calcium {
+    background-color: olivedrab;
+    border-radius: 10px;
+    width: 21%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+div#meals-sugar {
+    background-color: olivedrab;
+    border-radius: 10px;
+    width: 21%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+div#meals-carbohydrate {
+    background-color: olivedrab;
+    border-radius: 10px;
+    width: 21%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+div#meals-cholesterol {
+    background-color: olivedrab;
+    border-radius: 10px;
+    width: 28%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+div#meals-vitamin_c {
+    background-color: olivedrab;
+    border-radius: 10px;
+    width: 28%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 3%;
+    margin-bottom: 10px;
+}
+
+div#meals-vitamin_a {
+    background-color: olivedrab;
+    border-radius: 10px;
+    width: 28%;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+div#sleeps-content {
+    background-color: gray;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+div#sleeps-fall-time {
+    background-color: #f7ecb5;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+div#sleeps-awake-num {
+    background-color: #f7ecb5;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 5%;
+}
+
+div#sleeps-awake-time {
+    background-color: #f7ecb5;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+div#sleeps-light {
+    background-color: #f7ecb5;
+    border-radius: 10px;
+    width: 45%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+div#sleeps-deep {
+    background-color: #f7ecb5;
+    border-radius: 10px;
+    width: 45%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+div#sleeps-total-time {
+    background-color: #f7ecb5;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#analysis-moves {
+    background-color: darkcyan;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+
+div#analysis-sleeps {
+    background-color: darkcyan;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+div#analysis-meals {
+    background-color: darkcyan;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+div#analysis-workouts {
+    background-color: darkcyan;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+div#analysis-mood {
+    background-color: darkcyan;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
